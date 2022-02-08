@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "lib": ["es2016","dom"], 
+    "module": "commonjs",
+    "rootDir": "./ts",
+    "moduleResolution": "node",
+    "outDir": "./js",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "typeRoots": ["/types","/node_modules/@types"],
+    "types":["node"]
+  },
+  "include": [
+    "ts/**/*"
+  ]
+}
